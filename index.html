@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NCERT | ExamRider</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #d3eafd, #ffffff);
+      color: #222;
+      text-align: center;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 1.2rem;
+      font-size: 1.8rem;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .subtitle {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      color: #d0e6ff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 2rem 1rem;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .card i {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #004080;
+    }
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #004080;
+    }
+    .footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    NCERT 6th–12th All Solutions 📘<br />
+    <span class="subtitle">Powered by ExamRider – Digital Duniya ka Sabse Behtareen Study System 🚀</span>
+  </header>
+
+  <div class="grid">
+    <a href="./book/index.html"><div class="card">
+      <i class="fas fa-book"></i>
+      <div class="card-title">NCERT Books</div>
+    </div></a>
+
+    <a href="./notes/index.html"><div class="card">
+      <i class="fas fa-clipboard-list"></i>
+      <div class="card-title">Short Notes</div>
+    </div></a>
+
+    <a href="./mcq/index.html"><div class="card">
+      <i class="fas fa-question-circle"></i>
+      <div class="card-title">MCQs</div>
+    </div></a>
+
+    <a href="./other/index.html"><div class="card">
+      <i class="fas fa-folder-open"></i>
+      <div class="card-title">Other Resources</div>
+    </div></a>
+
+    <a href="./classes/index.html"><div class="card">
+      <i class="fas fa-school"></i>
+      <div class="card-title">Class 6 to 12</div>
+    </div></a>
+
+    <a href="./solution/index.html"><div class="card">
+      <i class="fas fa-lightbulb"></i>
+      <div class="card-title">All NCERT Solutions</div>
+    </div></a>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 ExamRider – Designed with ❤️ for Students by Vinod Chindaliya
+  </div>
+</body>
+</html>
